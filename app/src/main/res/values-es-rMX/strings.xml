@@ -1,0 +1,101 @@
+<resources
+
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Just Java</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="name">Nombre</string>
+
+    <!-- Header for the Toppings list [CHAR LIMIT=20] -->
+    <string name="toppings">elige tus ingredientes</string>
+
+    <!-- Toppings list choice - Whipped Cream [CHAR LIMIT=20] -->
+    <string name="whipped_cream">Crema batida</string>
+
+    <!-- Toppings list choice - Caramel [CHAR LIMIT=20] -->
+    <string name="caramel">Caramelo</string>
+
+    <!-- Toppings list choice - Cinnamon [CHAR LIMIT=20] -->
+    <string name="cinnamon">Canela</string>
+
+    <!-- Toppings list choice - Chocolate [CHAR LIMIT=20] -->
+    <string name="chocolate">Chocolate</string>
+
+    <!-- Header for above the increment and decrement buttons [CHAR LIMIT=20] -->
+    <string name="quantity">Tazas de café</string>
+
+    <!-- Text for the quantity of cups of coffee to be displayed between the increment/decrement buttons [CHAR LIMIT=20] -->
+    <string name="number">2</string>
+
+    <!-- Text displayed on the order button [CHAR LIMIT=12] -->
+    <string name="order">ORDEN</string>
+
+    <!-- Text displayed on the increment button [CHAR LIMIT=4] -->
+    <string name="increase">+</string>
+
+    <!-- Text displayed on the decrement button [CHAR LIMIT=4] -->
+    <string name="decrease">-</string>
+
+    <!--
+    Subject line for the order summary email. It will be in the format of
+    "Just Java order for Amy" where Amy is the user's name. [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_email_subject">JustJava orden para <xliff:g example="Amy" id="name">%s</xliff:g></string>
+
+    <!--
+    Toast message for when user tries to order less than 1 cup of coffee. [CHAR LIMIT=NONE]
+    -->
+    <string name="toast_less_than_one">No puedes tener menos de 1 taza de café.</string>
+
+    <!--
+    Toast message for when user tries to order more than 100 cups of coffee. [CHAR LIMIT=NONE]
+    -->
+    <string name="toast_more_than_onehundred">No puedes tener más de 100 tazas de café.</string>
+
+    <!--
+    Name for the order summary. It will be shown in the format of "Name: Amy" where Amy is the
+    user's name. [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_name">Nombre: <xliff:g example="Amy" id="nameEditText">%s</xliff:g></string>
+
+    <!--
+    Whipped cream topping for the order summary. It will be shown in the format of
+    "Add whipped cream? true" or "Add whipped cream? false". [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_whipped_cream">Añadir crema batida? <xliff:g example="true" id="addWhippedCream">%b</xliff:g></string>
+
+    <!--
+    Chocolate topping for the order summary. It will be shown in the format of
+    "Add chocolate? true" or "Add chocolate? false". [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_chocolate">Añadir chocolate? <xliff:g example="true" id="addChocolate">%b</xliff:g></string>
+
+    <!--
+    Caramel topping for the order summary. It will be shown in the format of
+    "Add caramel? true" or "Add caramel? false". [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_caramel">Añadir caramelo? <xliff:g example="true" id="addCaramel">%b</xliff:g></string>
+
+    <!--
+    Cinnamon topping for the order summary. It will be shown in the format of
+    "Add cinnamon? true" or "Add cinnamon? false". [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_cinnamon">Añadir canela? <xliff:g example="true" id="addCinnamon">%b</xliff:g></string>
+
+    <!--
+    Quantity of coffee cups for the order summary. It will be shown in the format of
+    "Quantity: 2", where 2 is the number of cups ordered. [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_quantity">Cantidad: <xliff:g example="2" id="quantity">%d</xliff:g></string>
+
+    <!--
+    Total price for the order summary. It will be shown in the format of
+    "Total: $10" where $10 is the price. [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_price">Total: <xliff:g example="$10" id="price">%s</xliff:g></string>
+
+    <!-- Thank you message for the order summary. [CHAR LIMIT=NONE] -->
+    <string name="thank_you">¡Gracias!</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dips_eight">8dp</dimen>
+    <dimen name="dips_sixteen">16dp</dimen>
+    <dimen name="dips_twentyfour">24dp</dimen>
+    <dimen name="dips_fourtyeight">48dp</dimen>
+    <dimen name="textsize_sixteen">16sp</dimen>
+    <dimen name="textsize_twentyfour">24sp</dimen>
+    <dimen name="textsize_twentyeight">28sp</dimen>
+    <dimen name="textsize_thirtytwo">32sp</dimen>
+    <dimen name="textsize_thirtyfour">34sp</dimen>
+</resources>
